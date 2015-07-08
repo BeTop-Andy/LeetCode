@@ -1,11 +1,11 @@
 public class Solution
 {
 	/// <summary>
-	/// 从数组中【删除】所有目标数字，返回删除后的长度。（超过长度的可以不管它有什么，只关注长度内的）
-	/// 题目地址：https://leetcode.com/problems/remove-element/
+	/// 浠庢暟缁勪腑銆愬垹闄ゃ�戞墍鏈夌洰鏍囨暟瀛楋紝杩斿洖鍒犻櫎鍚庣殑闀垮害銆傦紙瓒呰繃闀垮害鐨勫彲浠ヤ笉绠″畠鏈変粈涔堬紝鍙叧娉ㄩ暱搴﹀唴鐨勶級
+	/// 棰樼洰鍦板潃锛歨ttps://leetcode.com/problems/remove-element/
 	/// </summary>
 	/// <param name="nums"></param>
-	/// <param name="val">要删除的数字</param>
+	/// <param name="val">瑕佸垹闄ょ殑鏁板瓧</param>
 	/// <returns></returns>
 	public int RemoveElement(int[] nums, int val)
 	{

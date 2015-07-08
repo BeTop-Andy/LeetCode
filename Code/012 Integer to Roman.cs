@@ -1,11 +1,11 @@
 public class Solution
 {
 	/// <summary>
-	/// °Ñ°¢À­²®Êı×Ö×ª»»³ÉÂŞÂíÊı×Ö
-	/// ÌâÄ¿µØÖ·£ºhttps://leetcode.com/problems/integer-to-roman/
+	/// æŠŠé˜¿æ‹‰ä¼¯æ•°å­—è½¬æ¢æˆç½—é©¬æ•°å­—
+	/// é¢˜ç›®åœ°å€ï¼šhttps://leetcode.com/problems/integer-to-roman/
 	/// </summary>
-	/// <param name="num">°¢À­²®Êı×Ö</param>
-	/// <returns>ÂŞÂíÊı×Ö</returns>
+	/// <param name="num">é˜¿æ‹‰ä¼¯æ•°å­—</param>
+	/// <returns>ç½—é©¬æ•°å­—</returns>
 	public string IntToRoman(int num)
 	{
 		string result = "";
@@ -17,8 +17,8 @@ public class Solution
 								   { "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" },
 								   { "", "M", "MM", "MMM", "", "", "", "", "", "" }};
 
-			int digit;		// Êı×Ö
-			int count = 0;	// µÚ¼¸Î»
+			int digit;		// æ•°å­—
+			int count = 0;	// ç¬¬å‡ ä½
 			while (num > 0)
 			{
 				digit = num % 10;

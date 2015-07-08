@@ -1,12 +1,12 @@
 public class Solution
 {
 	/// <summary>
-	/// ×Ô¼ºÊµÏÖ³ı·¨£¬²»ÄÜÊ¹ÓÃ¡°*¡±£¬¡°/¡±£¬¡°%¡±
-	/// ÌâÄ¿µØÖ·£ºhttps://leetcode.com/problems/divide-two-integers/
+	/// è‡ªå·±å®ç°é™¤æ³•ï¼Œä¸èƒ½ä½¿ç”¨â€œ*â€ï¼Œâ€œ/â€ï¼Œâ€œ%â€
+	/// é¢˜ç›®åœ°å€ï¼šhttps://leetcode.com/problems/divide-two-integers/
 	/// </summary>
-	/// <param name="dividend">±»³ıÊı</param>
-	/// <param name="divisor">³ıÊı</param>
-	/// <returns>ÉÌ</returns>
+	/// <param name="dividend">è¢«é™¤æ•°</param>
+	/// <param name="divisor">é™¤æ•°</param>
+	/// <returns>å•†</returns>
 	public int Divide(int dividend, int divisor)
 	{
 		int result = 0;
@@ -57,11 +57,11 @@ public class Solution
 	}
 
 	/// <summary>
-	/// ¼ì²éÊÇ·ñÒç³ö
+	/// æ£€æŸ¥æ˜¯å¦æº¢å‡º
 	/// </summary>
-	/// <param name="dividend">±»³ıÊı</param>
-	/// <param name="divisor">³ıÊı</param>
-	/// <returns>ÊÇ/·ñ</returns>
+	/// <param name="dividend">è¢«é™¤æ•°</param>
+	/// <param name="divisor">é™¤æ•°</param>
+	/// <returns>æ˜¯/å¦</returns>
 	private bool CheckOverflow(int dividend, int divisor)
 	{
 		return (divisor == 0)
